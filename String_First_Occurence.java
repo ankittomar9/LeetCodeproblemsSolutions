@@ -51,4 +51,6 @@ Input: haystack = "leetcode", needle = "leeto"
 Output: -1
 Explanation: "leeto" did not occur in "leetcode", so we return -1.
 
+Use indexOf to compare two object in substring
+
 */
