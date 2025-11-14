@@ -1,7 +1,9 @@
 public class String_First_Occurence {
     public static void main(String args[]){
-        String haystack="sadwordsad"; int h=haystack.length();
-        String needle="sad";    int n=needle.length();
+        String haystack="sadwordsad"; 
+        int h=haystack.length();
+        String needle="sad";    
+        int n=needle.length();
 
         // 10 17 9 15 14 19 25 8 4 20 
         if(n==0){
@@ -9,11 +11,11 @@ public class String_First_Occurence {
         }
 
        
-        for(int i=0;i<h-n;i++){
+        for(int i=0;i<h-n;i++){  // sadwordsad
              boolean match=true;
 
-            for(int j=0;j<n;j++){
-                if(haystack.charAt(i+j)!=needle.charAt(j)){
+            for(int j=0;j<n;j++){  // sad
+                if(haystack.charAt(i+j)!=needle.charAt(j)){  //i=0+0  0   i=0+1  j=1 i+2 j=2  i+3 j=3
                     match=false;
                     break;
                 }
