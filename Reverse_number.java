@@ -1,6 +1,6 @@
 public class  Reverse_number {
     public static void main(String args[]){
-        int x=123;
+        long x=123; // check for overflow
         long reversed_number=0;
         while(x!=0){
             long digit=x%10;
