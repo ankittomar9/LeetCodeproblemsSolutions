@@ -5,7 +5,11 @@ public class PalindromeNumber {
         int original_number=x;
         int reversed_number=0;
 
-        while(x!=0){
+        if(x<0 || (x%10==0 && x!=0)){
+            System.out.println("negative number Plaindrome Check Edge case");
+        }
+
+        while(x!=0){+
             int digit=x%10;
             reversed_number=reversed_number*10+digit;
 
