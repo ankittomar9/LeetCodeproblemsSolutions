@@ -1,1 +1,1 @@
-Number is palindromic
+4
